@@ -15,7 +15,7 @@ const SocketContextProvider = ({children}) => {
 
     useEffect(() => {
         if(authUser){
-            const socket = io('http://localhost:5000',{
+            const socket = io('https://ping-chat-app.onrender.com',{
                 query: {
                     userId: authUser._id,
                 }
