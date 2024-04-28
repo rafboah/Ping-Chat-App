@@ -1,4 +1,3 @@
-import React from 'react'
 import Chat from './Chat'
 import useGetChats from '../../hooks/useGetChats'
 import getRandomEmoji from '../../utils/emojis'

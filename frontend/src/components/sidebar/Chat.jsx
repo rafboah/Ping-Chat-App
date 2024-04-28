@@ -1,4 +1,3 @@
-import React from 'react'
 import useChat from '../../zustand/useChat'
 import { useSocketContext } from '../../context/SocketContext'
 
