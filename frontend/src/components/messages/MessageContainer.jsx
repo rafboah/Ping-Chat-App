@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import Messages from './Messages'
 import MessageInput from './MessageInput'
 import {TiMessages} from 'react-icons/ti'
@@ -13,7 +13,7 @@ const MessageContainer = () => {
  },[setSelectedChat])
 
   return (
-    <div className='md:min-w-[450px] flex flex-col'>
+    <div className='w-full flex flex-col'>
         {!selectedChat ? (<NoChatSelected/>) : 
         (
         <>
